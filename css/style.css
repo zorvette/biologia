@@ -1,0 +1,107 @@
+body {
+  background: #efefef;
+}
+
+.accordion-button {
+  background-color: #c5efc3;
+}
+
+.sub-pesta {
+  background-color: #f9e9c4;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.15rem rgb(253 13 13 / 25%);
+}
+
+.carrusel {
+  margin-bottom: 10px;
+}
+
+.acordeon {
+  padding: 20px
+}
+
+#nav {
+  justify-content: left;
+}
+
+.logotipo {
+  margin: 10px;
+}
+
+.ejemplos {
+  display: block;
+  width: 230px;
+  margin: 10px 0;
+}
+
+.ejemplo-preformismo {
+  display: block;
+  height: 250px;
+  margin: 10px 0;
+}
+
+.ejemplos-huevos {
+  display: block;
+  width: 150px;
+  margin: 10px 0;
+}
+
+/* JUEGO */
+
+span {
+  color:#000;
+}
+
+div#content {
+  margin-top:10px;
+}
+
+div#conf {
+  padding-bottom:10px;
+}
+
+div#titulo {
+  color:#000;
+  font-size:30px;
+  font-weight:bold;
+  text-shadow:1px 1px 8px #00e800, -1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;
+}
+
+select#piezas {
+  margin-right: 5px;
+}
+
+table {
+  border:2px solid black;
+  box-shadow:1px 1px 8px #000,-1px -1px 8px #000, 1px -1px 8px #000, -1px 1px 8px #000;
+  -webkit-box-shadow:1px 1px 8px #00e800,-1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;
+  border-collapse:collapse;
+  margin-bottom: 90px;
+}
+
+td.pieza {
+  background:url(https://img.freepik.com/vector-gratis/concepto-diseno-espacio-trabajo-laboratorio-biologia_1284-11559.jpg?size=338&ext=jpg);
+  transition:.3s ease-in-out;
+  -moz-transition:.3s ease-in-out;
+  -webkit-transition:.3s ease-in-out;
+  -o-transition:.3s ease-in-out;
+  cursor:pointer;}
+
+div.posic {
+  display: none;
+}
+
+
+  /* RESPONSIVE */
+
+@media (max-width: 320px) {
+  #nav {
+    justify-content: space-between;
+  }
+  .logotipo {
+    width: 50px;
+    margin: 5px;
+  }
+}
